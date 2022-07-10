@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.5;
+  padding-bottom: 20px;
+}
+body {
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.mini-container {
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 20px;
+  width: 350px;
+  height: auto;
+
+  
+}
+.border {
+  padding: 0;
+  border-top: 1px solid hsl(215, 51%, 70%);
+  padding-bottom: 15px;
+  margin-top: -20px;
+}
+
+.img {
+  display: block;
+  margin: auto;
+  padding-top: 25px;
+}
+
+
+.content{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+h2{
+  color: white;
+}
+h2:hover{
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+p{
+  color: hsl(215, 51%, 70%);
+  
+}
+.values{
+  padding: 0;
+  display: flex;
+ justify-content: space-between;
+ 
+}
+.cryp-val{
+  color: hsl(178, 100%, 50%);
+  font-weight: bold;
+ display: inline-flex;
+}
+.logo{
+  padding-right: 10px;
+}
+.bottom{
+  display: inline-flex;
+  color: hsl(215, 51%, 70%);
+  margin-bottom: -200px;
+}
+.sep{
+  padding-left: 5px;
+  color: white;
+}
+.sep:hover{
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+.pics{
+  padding-right: 10px;
+}
+.clk{
+  display: inline-flex;
+}
+.clock{
+  padding-right: 5px;
+}
